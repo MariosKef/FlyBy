@@ -1,4 +1,7 @@
 # FlyBy
+[![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-green.svg?style=plastic)](https://www.python.org/downloads/release/python-390/)
+
+
 Identify in detail regions of interest that your flight flew over.
 
 This small project helps in identifying (_postflight for now_) areas that you as a passenger flew over, found interesting and would 
