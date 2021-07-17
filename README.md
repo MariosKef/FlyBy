@@ -6,6 +6,7 @@ Identify in detail regions of interest that your flight flew over.
 
 This small project helps in identifying (_postflight for now_) areas that you as a passenger flew over, found interesting and would 
 like to identify for future reference.
+Simply note down the time of an interesting site (lake, city, road, mountain, etc.) and then through this tool find the area you are looking for by searching (for now manually) for the time you noted down on the generated map (hovering over the points of the trajectory reveals time).
 
 The data is taken from the **tracklogs** of https://flightaware.com/.
 
