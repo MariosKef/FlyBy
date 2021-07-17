@@ -7,7 +7,7 @@ Identify in detail regions of interest that your flight flew over.
 This small project helps in identifying (_postflight for now_) areas that you as a passenger flew over, found interesting and would 
 like to identify for future reference.
 
-The data is taken from the tracklogs of https://flightaware.com/.
+The data is taken from the **tracklogs** of https://flightaware.com/.
 
 ## Usage
 ``map = traj(url, tz)``
