@@ -1,6 +1,6 @@
 # FlyBy
 <p align="center">
-  <img src="images/LogoMakr-0JMFWY.png" />
+  <img width="200" height="200" src="images/LogoMakr-0JMFWY.png" />
 </p>
 
 <!-- ![](/images/LogoMakr-0DZT22.png) -->
