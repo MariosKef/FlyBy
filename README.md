@@ -15,7 +15,7 @@ The data is taken from the **tracklogs** of https://flightaware.com/.
 ``map``
 
 ### Example
-Enter your flight **tracklog** from flightaware (e.g., google KL1573) in the ``url`` and the time zone in ``tz`` (tz format should be as _Europe/Amsterdam_).
+Enter your flight **tracklog** from flightaware (e.g., search for KL1573 that has already arrived) in the ``url`` and the time zone in ``tz`` (tz format should be as _Europe/Amsterdam_).
 
 ``url = 'https://flightaware.com/live/flight/KLM1573/history/20210715/0635Z/EHAM/LGAV/tracklog'``
 
