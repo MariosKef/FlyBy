@@ -17,6 +17,8 @@ Simply note down the time of an interesting site (lake, city, road, mountain, et
 The data is taken from the **tracklogs** of https://flightaware.com/.
 
 ## Usage
+`` url = query(flight_number, date_of_departure)``
+
 ``map = traj(url, tz)``
 
 ``map``
@@ -24,9 +26,13 @@ The data is taken from the **tracklogs** of https://flightaware.com/.
 ### Example
 Enter your flight **tracklog** from flightaware (e.g., search for a flight that has already arrived) in the ``url`` and the time zone in ``tz`` (tz format should be as _Europe/Amsterdam_).
 
-``url = 'https://flightaware.com/live/flight/KLM1573/history/20210715/0635Z/EHAM/LGAV/tracklog'``
+``flightN = 'KLM1573'`` (example)
+
+``date = 20210715`` (example of format)
 
 ``tz = 'Europe/Amsterdam'``
+
+`` url = query(flightN, date)``
 
 ``map = traj(url, tz)``
 
@@ -36,6 +42,6 @@ Enter your flight **tracklog** from flightaware (e.g., search for a flight that 
 ![](/images/flyby_2.png)
 
 # To-do:
-* Automate the process by simply adding the departure date and flight numbers as arguments.
-* Give insights on areas around the flight coordinates (within a given radius).
-* Turn into cli tool.
+- Automate the process by simply adding the departure date and flight numbers as arguments. :heavy_check_mark: (_to-be optimized_)
+- Give insights on areas around the flight coordinates (within a given radius). 
+- Turn into cli tool. 
