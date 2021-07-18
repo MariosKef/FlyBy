@@ -36,5 +36,5 @@ Enter your flight **tracklog** from flightaware (e.g., search for a flight that 
 ![](/images/flyby_2.png)
 
 # To-do:
-* Automate the process my simply adding the departure date and flight numbers as arguments.
+* Automate the process by simply adding the departure date and flight numbers as arguments.
 * Give insights on areas around the flight coordinates (within a given radius).
